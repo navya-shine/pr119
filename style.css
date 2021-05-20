@@ -1,0 +1,54 @@
+.heading 
+{
+    font-size: 23px;
+    margin: 0;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    width: 100%;
+    background-color: #555353;
+}
+.heading_div
+{
+    border-radius: 20px;
+    background-color: #00ffcd;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    float: none;
+}
+.heading_div2
+{
+    font-size:18px;
+}
+.para_div
+{
+    font-size: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+.copy_right_footer
+{
+    width: 100%;
+    color: white;
+    background-color: grey;
+    line-height: 3;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+canvas
+{
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border-width: 10px;
+    border-style: solid;   
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 1px 1px 38px darkcyan}
+    50% {box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+    100% {box-shadow: 1px 1px 38px rgb(183, 1, 255);}
+}
